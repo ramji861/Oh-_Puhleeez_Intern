@@ -1,0 +1,340 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship | Summer Internship 2022 | Internship in India</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/6deb308963.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/card.css" />
+  </head>
+
+  <body>
+      <nav><a class="logo" href="#">
+        <img class="logo" src="/images/logo.png" height="60px" alt="Oh! Phuleez intern">
+      </a>
+      <n>
+        <ul id="nav_link">
+          <li class="nav-hover">
+            <a href="/card.html">Internships<i class="fa-solid fa-caret-down" aria-hidden="true"></i></a>
+            <div class="hover">
+              <div class="hover--navbar">
+                <div>
+                  <h5>Location</h5>
+                  <h5>Profile</h5>
+                  <h5>Category</h5>
+                  <h5>Specialization</h5>
+                  <p>with Guaranteed internships</p>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="">Work from Home</a></li>
+                    <li><a href="">Internship in Banglore</a></li>
+                    <li><a href="">Internship in Delhi</a></li>
+                    <li><a href="">Intership in Hyderabad</a></li>
+                    <li><a href="">Intership in Mumbai</a></li>
+                    <li><a href="">Intership in Chennai</a></li>
+                    <li><a href="">Intership in Pune</a></li>
+                    <li><a href="">Intership in Kolkata</a></li>
+                    <li><a href="">Intership in Jaipur</a></li>
+                    <li><a id="last" href="">View all internships</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-hover">
+            <a href="#">Online Training <span id="offer">OFFER</span><i class="fa-solid fa-caret-down" aria-hidden="true"></i></a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+    <div id="container">
+      <div id="sidebar">
+      <div id="filter">
+            <span "="" class="material-icons-outlined"> filter_alt </span>
+            <span id="filter_ui" class="heading_5">Filters</span>
+          </div>
+
+          <form action="">
+            <label for="">Category</label>
+            <br>
+          <select type="text" placeholder="e.g. Marketing" style="line-height: -15px;color:gray;border:1;appearance: none;">
+            <option value="e.g. Marketing">e.g. Marketing</option>
+            <option value="">.NET Development</option>
+            <option>3D Printing</option>
+            <option>Accounts</option>
+            <option>Acting</option>
+            <option>Aerospace Engineering</option>
+            <option>Analytics</option>
+            <option>Anchoring</option>
+            <option>Android App Development</option>
+            <option>Angular.js Development</option>
+            <option>Animation</option>
+            <option>Architecture</option>
+            <option>Artificial Intelligence(AI)</option>
+            <option>ASP.NET Development</option>
+            <option>Audio Making/Editing</option>
+          </select>
+            <br>
+            <label for="">Location</label>
+            <br>
+            <select type="text" placeholder="e.g.Delhi " style="line-height: -15px;color:gray;border:1;appearance: none;">
+            <option value="e.g. place">e.g.Delhi </option>
+            <option value="">Agra</option>
+            <option>Adilabad</option>
+            <option>Agar</option>
+            <option>Agartala</option>
+            <option>Ahmedabad</option>
+            <option>Ahmadnagar</option>
+            <option>Ajmer</option>
+            <option>Akola</option>
+            <option>Allahabad</option>
+            <option>Badarpur</option>
+            <option>Bahadurpur</option>
+            <option>Balghat</option>
+            <option>Balasore</option>
+            <option>Balangir</option>
+            <option>Banaras</option>
+            <option>Banke</option>
+            <option>Baroda</option>
+            <option>Bhatinda</option>
+            <option>Balamau</option>
+            <option>Bangalore</option>
+            <option>Delhi</option>
+            <option>Hyderabad</option>
+            <option>Pune</option>
+            <option>Chennai</option>
+            <option>Calcutta</option>
+            <option>Rajasthan</option>
+            <option>Mumbai</option>
+            
+          </select>
+          <br>
+          </form>
+          <div id="toggle-switch">
+            <label id="text_label">Work from Home</label>
+            <div class="" toggle="">
+            <label class="switch">
+            <input id="wfh" type="checkbox" checked="">
+            <span class="slider_switch"></span>
+            </label>
+            </div>
+          
+          </div>
+          <div id="toggle-switch">
+            <label id="text_label">Part-time</label>
+            <div class="" toggle="">
+            <label class="switch">
+            <input id="ptm" type="checkbox" checked="">
+            <span class="slider_switch" "=""></span>
+            </label>
+            </div>
+          </div>
+          <div>
+            <label>Desired minimum monthly stipend ( ₹ )</label>
+            <input type="range" min="0" max="12100" value="5" step="3" class="slider" id="stipend_filter" style="width:100%;
+              
+                background: linear-gradient(
+                  to right,
+                  #dddddd 0%,
+                  #dddddd 0%,
+                  #008bdc 0%,
+                  #008bdc 100%
+                );" "="">
+          </div>
+          <form action="">
+            <label for="">Starting from (or after)</label>
+            <select type="text" placeholder="e.g.Delhi " style="line-height: -15px;color:gray;border:1;appearance: none;">
+            <option>Date</option>
+            </select>
+            <br>
+            <label for=""> Max. duration (months)</label>
+            <select type="months" placeholder="Choose duration" style="line-height: -15px;color:gray;border:1;appearance: none;">
+            <option>Duration</option>
+            </select>
+          </form>
+          <div>
+            <div id="toggle-switch">
+            <label id="text_label">Internships for women ?</label>
+            <div class="" toggle="">
+          <label class="switch">
+            <input type="checkbox" checked="">
+            <span class="slider_switch"></span>
+            </label>
+            </div>
+          </div>
+          <div>
+            <div>
+            <div id="toggle-switch">
+            <label id="text_label">Internships with job offer ?</label>
+            <div class="" toggle="">
+          <label class="switch">
+            <input type="checkbox" checked="">
+            <span class="slider_switch"></span>
+            </label>
+            </div>
+          </div>
+          </div>
+          <p>-------------------------  OR  ---------------------</p>
+          <input type="text" placeholder="e.g. Design,Mumbai,Infosys">
+      </div></div></div>
+          <div id="main"><div><h4>Get Internship and Job Preparation FREE!!!</h4><p>Get FLAT 80% OFF on your favourite online trainings</p><p>Choose from Web Dev,Python,Data Science,Marketing &amp; more</p><div id="newdiv"><div><p>♽START</p><p>Any time You Want</p></div><div><p>🗓DURATION</p><p> 3 - 6 months</p></div><div><p>💵STIPEND</p><p>Fixed &amp; Performance Based</p></div><div><p>⧖ Apply By</p><p>ASAP</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time/Part time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+          
+          <div><h4>MyCareerMyChoice</h4><p>Say no to career stereotypes! Say yes to being you!</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>1-6months</p></div><div><p>💵STIPEND</p><p>Minimum ₹10,000</p></div><div><p>⧖ Apply By</p><p>24 Feb'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>7-day Virtual Charity Drive (Openings: 1000)</h4><p>Hamari Pahchan NGO</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>Unpaid</p></div><div><p>⧖ Apply By</p><p>3 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>UNV India V-Force Volunteeringe</h4><p>United Nations Volunteer</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>4 weeks</p></div><div><p>💵STIPEND</p><p>Unpaid</p></div><div><p>⧖ Apply By</p><p>23 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+          
+          <div><h4>Campus Ambassador</h4><p>Monexo FinTech Private Limited</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>Performance Based</p></div><div><p>⧖ Apply By</p><p>5 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>Fundraising</h4><p>Tare Zameen Foundation</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>1 month</p></div><div><p>💵STIPEND</p><p>₹ 1000 /month + Incentives</p></div><div><p>⧖ Apply By</p><p>3 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>Marketing</h4><p>Confluence Educational Services Private Limited</p><p>Hyderabad</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>3 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>Software Development</h4><p>Mogi I/O</p><p>Delhi</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 10000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>Teaching (English)</h4><p>Level Up Academy</p><p>Delhi</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 10000-15000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22 </p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>Graphic Design</h4><p>Cyphere</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>2 months</p></div><div><p>💵STIPEND</p><p>₹ 8000-10000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22 </p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+          <div><h4>MyCareerMyChoice</h4><p>Woovly India Private Limited</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 8000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div><div>
+
+            <h4>Flutter Development</h4><p>Cogent Web Services</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Operations</h4><p>Desh Ki Baat Foundation</p><p>Delhi</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>Unpaid</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Customer Service</h4><p>Woovly India Private Limited</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Business Development (Sales)</h4><p>Labour Law Advisor</p><p>Jaipur</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 6000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Blockchain Software Development</h4><p>Relinns Technologies</p><p>Chandigarh, Dharamshala, Una, Mohali, Hamirpur</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 9000 /month</p></div><div><p>⧖ Apply By</p><p>15 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Android App Development</h4><p>Believable</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹10000 lump sum</p></div><div><p>⧖ Apply By</p><p>15 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Human Resources (HR)</h4><p>Talent Scout Management Solutions</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 5000 /month</p></div><div><p>⧖ Apply By</p><p>11 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+            
+            <div><h4>Mobile App Development</h4><p>Hamari Pahchan NGO</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Audit (Operations)</h4><p>PlanetSpark</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>4 weeks</p></div><div><p>💵STIPEND</p><p>₹ 9000 /month</p></div><div><p>⧖ Apply By</p><p>13 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Commercial Operations</h4><p>Softcell Technologies Limited</p><p>Pune</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>15 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Digital Marketing</h4><p>Dhosa Retail Private Limited</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>1 month</p></div><div><p>💵STIPEND</p><p>₹ 4000 /month + Incentives</p></div><div><p>⧖ Apply By</p><p>8 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Android App Development</h4><p>CITS Worldwide</p><p>Hyderabad</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>13 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Software Development</h4><p>Mogi I/O</p><p>Delhi</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 10000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Marketing Lead Generation</h4><p>Expertrons</p><p>Pune</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 10000-15000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22 </p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Brand Solutions Management</h4><p>Confluencr</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>2 months</p></div><div><p>💵STIPEND</p><p>₹ 8000-10000 /month</p></div><div><p>⧖ Apply By</p><p>8 Mar'22 </p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Web Development</h4><p>JMV Systems</p><p>⌂Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹ 8000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Flutter Development</h4><p>Cogent Web Services</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>CA/ICWA Traineeship</h4><p> CEAT Limited</p><p>Mumbai</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+
+            <div><h4>Customer Service</h4><p>Woovly India Private Limited</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 15000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+            
+            <div><h4>Business Development (Sales)</h4><p>Labour Law Advisor</p><p>Jaipur</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 6000 /month</p></div><div><p>⧖ Apply By</p><p>12 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+            
+            <div><h4>Blockchain Software Development</h4><p>Relinns Technologies</p><p>Chandigarh, Dharamshala, Una, Mohali, Hamirpur</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>6 months</p></div><div><p>💵STIPEND</p><p>₹ 9000 /month</p></div><div><p>⧖ Apply By</p><p>15 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div>
+            
+            <div><h4>Android App Development</h4><p>Believable</p><p>⌂ Work From Home</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>₹10000 lump sum</p></div><div><p>⧖ Apply By</p><p>15 Mar'22</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Full time </p></div><div id="detaildiv">Views details &gt; </div></div></div>
+            
+            <div><h4>Human Resources (HR)</h4><p>Talent Scout Management Solutions</p><p>Bangalore</p><div id="newdiv"><div><p>♽START</p><p>Starts immediately</p></div><div><p>🗓DURATION</p><p>3 months</p></div><div><p>💵STIPEND</p><p>Unpaid</p></div><div><p>⧖ Apply By</p><p>3rd March</p></div></div><div id="bottomdiv"><div id="interndiv"><p>Internhips</p></div><div id="whdiv"><p>Part time allowed</p></div><div id="detaildiv">Views details &gt; </div></div></div></div>
+        </div>
+          <div id="main"></div>
+        </div>
+
+  <footer><div id="titles">
+      <div>
+        <h3>Internship by Places</h3>
+        <p>Internship in India</p>
+        <p>Internship in Delhi</p>
+        <p>Internship in Banglore</p>
+        <p>Internship in Hyderabad</p>
+        <p>Internship in Mumbai</p>
+        <p>Internship in Chennai</p>
+        <p>Internship in Gurgaon</p>
+        <p>Internship in Kolkata</p>
+        <p>Virtual internship</p>
+      </div>
+      <div>
+        <h3>Internship by Stream</h3>
+        <p>Computer Science Internship</p>
+        <p>Electronics Internship</p>
+        <p>Mechanical Internship</p>
+        <p>Civil Internship</p>
+        <p>Marketing Internship</p>
+        <p>Chemical Internship</p>
+        <p>Finance Internship</p>
+        <p>Summer Research Fellowship</p>
+        <p>Campus Ambassador Program</p>
+      </div>
+      <div>
+        <h3>Online Training <span id="tag">OFFER</span></h3>
+        <p>Programming with Python</p>
+        <p>Digital Marketing</p>
+        <p>Web Development</p>
+        <p>Machine Learning</p>
+        <p>Advanced Excel</p>
+        <p>Ethical Hacking</p>
+        <p>AutoCAD</p>
+        <p>Creative Writing</p>
+        <p>Data Science</p>
+      </div>
+      <div>
+        <h3>About Oh! Phuleez Intern</h3>
+        <p>About Us</p>
+        <p>We're hiring</p>
+        <p>Hire interns for your company</p>
+        <p>Team Diary</p>
+        <p>Blog</p>
+        <p>Our Services</p>
+        <p>Terms &amp; Conditions</p>
+        <p>Privacy</p>
+        <p>Contact us</p>
+      </div>
+    </div>
+    <hr>
+    <div id="social_media">
+      <a id="play" href=""><i class="fab fa-google-play" aria-hidden="true"> <span>Get Android App</span></i></a>
+      <span id="icons">
+        <a href="#"> <i class="fab fa-instagram footer_icons" aria-hidden="true"></i></a>
+        <a href="#"><i class="fab fa-twitter footer_icons" aria-hidden="true"></i></a>
+        <a href="#"><i class="fab fa-youtube footer_icons" aria-hidden="true"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in footer_icons" aria-hidden="true"></i></a>
+      </span>
+      <span id="copyright">© Copyright 2021 Oh! Phuleez Intern</span>
+    </div></footer>
+  </body>
+
+  </html>
+
+  <script type="module" src="/scripts/card.js">
+
+    import {sidebar} from "/components/sidebar.js"
+
+      import { internshipData } from "/scripts/card.js";
+
+      // document.getElementById("sidebar").innerHTML = sidebar()
+
+      //var data = JSON.parse(localStorage.getItem("data"));
+      // console.log(data);
+
+      //let parent = document.getElementById("main");
+      //document.querySelector("#main").innerHTML = internshipData(data, parent);
+
+      // internshipData(data, parent);
+      // console.log(internshipData);
+      // checkboxfilter(parent)
+  </script>
+
